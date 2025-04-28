@@ -1,0 +1,9 @@
+streamlit
+pymongo
+python-dotenv
+pandas
+requests
+plotly
+matplotlib
+seaborn
+streamlit-lottie
