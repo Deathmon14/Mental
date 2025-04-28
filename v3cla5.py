@@ -1041,7 +1041,7 @@ if 'dark_mode' not in st.session_state:
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.image("/home/deathmonarch/CODE/Mental/dog.jpeg", width=150)
+    st.image("dog.jpeg", width=150)
     st.markdown("<h1 class='main-header'>MindEase</h1>", unsafe_allow_html=True)
     st.markdown("<p class='subheader'>Your AI Mental Health Journal</p>", unsafe_allow_html=True)
 
