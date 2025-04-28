@@ -1081,9 +1081,8 @@ with st.sidebar:
 
     # 🧰 Resources
     st.markdown("### 🧰 Resources")
-    st.markdown("""
-    - [Crisis Text Line](https://www.crisistextline.org/) - Text HOME to 741741  
-    - [National Suicide Prevention Lifeline](https://suicidepreventionlifeline.org/) - 988  
+    st.markdown(""" 
+    - [iCALL] - 9152987821  
     - [7 Cups - Online Therapy](https://www.7cups.com/)
     """)
 
