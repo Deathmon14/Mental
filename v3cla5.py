@@ -1034,6 +1034,11 @@ def display_chat_interface():
 if not st.session_state.logged_in:
     login_signup_page()
     st.stop()
+# Ensure streak updates once per day automatically
+today_str = datetime.now().strftime("%Y-%m-%d")
+if st.session_state.last_entry_date != today_str:
+    update_streak()
+
 # Sidebar
 # --- DARK MODE STATE INIT (before sidebar) ---
 if 'dark_mode' not in st.session_state:
@@ -1086,9 +1091,7 @@ with st.sidebar:
     - [7 Cups - Online Therapy](https://www.7cups.com/)
     """)
 
-    # ⚙️ Settings (placeholder)
-    st.markdown("### ⚙️ Settings")
-    st.checkbox("Dark Mode (coming soon)", disabled=True)
+    
 
     # ℹ️ About
     with st.expander("ℹ️ About MindEase"):
