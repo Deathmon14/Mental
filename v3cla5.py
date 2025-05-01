@@ -1808,7 +1808,7 @@ elif st.session_state.current_view == "history":
 st.markdown("---")
 st.markdown(
     """<div style='text-align: center; color: gray; font-size: 0.8em;'>
-    MindEase v1.0.0 | Created with ❤️ | Not a substitute for professional mental health care
+    MindEase v1.0.1 | Not a substitute for professional mental health care
     </div>""", 
     unsafe_allow_html=True
 )
