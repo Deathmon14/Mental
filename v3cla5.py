@@ -1287,8 +1287,6 @@ def sidebar():
         st.markdown("### 🧰 Resources")
         with st.expander("Crisis Resources"):
             st.markdown("""
-            - **Crisis Text Line**: Text HOME to 741741  
-            - **National Suicide Prevention Lifeline**: 988  
             - [7 Cups Online Therapy](https://www.7cups.com/)
             """)
         
