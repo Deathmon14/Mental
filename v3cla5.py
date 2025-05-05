@@ -679,7 +679,7 @@ def meditation_audio_player():
     )
     
     # Placeholder - in a real app, you would have actual audio files
-    if st.button("Play Sample Meditation", type="primary"):
+    if st.button("Play Meditation", type="primary"):
         #st.info("In a full implementation, this would play the selected meditation audio")
         # Example of how you might implement this:
         autoplay_audio(f"audio/{meditation_type.lower().replace(' ', '_')}.mp3")
